@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta Interativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>Itens da Roleta</h2>
+            <ul id="item-list"></ul>
+            <input type="text" id="item-input" placeholder="Novo item">
+            <button id="add-item">Adicionar</button>
+        </div>
+        <div class="roleta-area">
+            <canvas id="roleta" width="400" height="400"></canvas>
+            <button id="girar">Girar Roleta</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

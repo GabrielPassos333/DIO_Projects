@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.menu {
+    width: 300px;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.menu h2 {
+    margin-top: 0;
+}
+#item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+#item-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    background: #f0f0f0;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+#item-list li span {
+    flex: 1;
+    word-break: break-word;
+    text-align: center;
+    display: block;
+}
+#item-list .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 8px;
+}
+#item-list button {
+    margin-left: 0;
+    margin-right: 0;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 2px 6px;
+    width: 60px;
+}
+#item-list button.edit {
+    background: #3498db;
+}
+#item-input {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+#add-item {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+.roleta-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    position: relative;
+}
+#roleta {
+    margin-bottom: 16px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#girar {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+#resultado {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 8px;
+    min-height: 24px;
+}
