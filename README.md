@@ -1,3 +1,5 @@
+Teste mudança de de Branch
+
 # Projetos DIO_Projects
 
 Este repositório contém três projetos desenvolvidos com o auxílio do modelo GPT-4.1, demonstrando aplicações práticas de inteligência artificial para acelerar o desenvolvimento de soluções web e APIs. Abaixo, segue uma breve descrição de cada projeto, o processo de desenvolvimento e as tecnologias utilizadas.
